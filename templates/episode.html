@@ -1,0 +1,20 @@
+{% extends 'index.html' %}
+{% block content %}
+    <div class="row">
+        <div class="col-sm-3 col-6">
+            <p>
+
+                <h6 class="card-title">{{episodes_id.name}}</h6>
+                <h8> <b>Data</b>: {{episodes_id.air_date}}
+                    <br><b>Episódio número</b>: {{episodes_id.episode}}
+                    <br><b>Personagens que participam</b>: {{episodes_id.characters}}
+                    
+                </h8>
+
+                <p></p>
+            </p>
+            
+        </div>
+
+    </div>
+{% endblock %}

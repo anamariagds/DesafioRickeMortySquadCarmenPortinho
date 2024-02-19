@@ -1,0 +1,18 @@
+{% extends 'index.html' %}
+{% block content %}
+    <div class="row">
+        {% for character in characters %} 
+            <div class="col-sm-3 col-6">
+                    <p>
+                        <img src="{{character.image}}" class="card-img-top"  alt="{{character.name}}" class="img-thumbnail"/>
+                        <h6 class="card-title">{{character.name}}</h6>
+                        <br>
+                        <p><a href="/profile//{{character.id}}" class="btn btn-primary"
+                            style="--bs-btn-padding-y: .15rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Saiba mais</a></p>
+                    </p>
+                    
+                </div>
+        {% endfor %}
+
+    </div>
+{% endblock %}

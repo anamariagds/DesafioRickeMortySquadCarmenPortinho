@@ -95,7 +95,8 @@ def get_locations_id(id):
         location = {
             "name": location["name"],
             "type": location["type"],
-            "dimension": location["dimension"]
+            "dimension": location["dimension"],
+            "residents": location["residents"]
 
         }
 

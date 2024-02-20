@@ -106,7 +106,7 @@ def get_locations_id(id):
     return render_template("location.html", location_id=dict)
 
 #rota da página do perfil do episódio
-@app.route('/episodes/<id>')
+@app.route('/episode/<id>')
 def get_episodes_id(id):
     url = "https://rickandmortyapi.com/api/episode/" + id
     response = urllib.request.urlopen(url)
@@ -124,3 +124,8 @@ def get_profile(id):
     dict = json.loads(profile) 
 
     return render_template("profile.html", profile=dict)
+
+
+
+if __name__ == "__main__":
+    app.run(port=5000, debug=True)

@@ -82,28 +82,21 @@ def get_episodes():
     return render_template("episodes.html", episodes=dict["results"])
 
 #rota da página do perfil da localização
-@app.route('/locations/<id>')
+@app.route('/locations/<id>/')
 def get_locations_id(id):
     url = "https://rickandmortyapi.com/api/location/" + id
     response = urllib.request.urlopen(url)
-    location_id = response.read()
-    dict = json.loads(location_id) 
+    location_info = response.read()
+    dict = json.loads(location_info) 
 
-    location_id = [] 
-    #um loop para trazer as info. que quero
-    for location in dict["results"]:
-        location = {
-            "name": location["name"],
-            "type": location["type"],
-            "dimension": location["dimension"],
-            "residents": location["residents"]
+    location_id = {
+        "name": dict["name"],
+        "type": dict["type"],
+        "dimension": dict["dimension"],
+        "residents": dict["residents"]
+    }
 
-        }
-
-        #adicionando na lista
-        location_id.append(location)
-
-    return render_template("location.html", location_id=dict)
+    return render_template("location.html", location_id=location_id)
 
 #rota da página do perfil do episódio
 @app.route('/episode/<id>')

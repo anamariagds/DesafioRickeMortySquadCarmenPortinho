@@ -1,0 +1,25 @@
+header a img{
+    width: 2vw;
+    height: 5h;
+}
+
+.nav.nav-tabs {
+    background-color: #04a104; 
+    color: white; 
+    padding: 10px; 
+}
+
+.nav.nav-tabs .nav-item {
+    margin-right: 10px; 
+}
+
+.nav.nav-tabs .nav-item a.nav-link {
+    color: white; 
+}
+
+.nav.nav-tabs .nav-item a.nav-link:hover {
+    color: yellow;
+    border: 1px  solid #1a6b1a !important;
+    background-color: #61e461;
+    border-radius: 25px; 
+}

@@ -1,0 +1,14 @@
+body {
+    background-image: url('https://wallpapercave.com/wp/wp6736990.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#saiba-mais {
+    background-color: #ffffff;
+    color: #008000;
+    text-decoration: none;
+    border-color: #008000;
+    border-radius: 25px;
+}

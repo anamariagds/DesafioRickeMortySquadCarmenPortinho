@@ -1,26 +1,24 @@
+<head>
+    <link rel="stylesheet" href="./static/episodes.css">
+  </head>
+
 {% extends 'index.html' %}
 
 {% block content %}
     <div class="row">
-    
-
         {% for episode in episodes %} 
-
-                <div class="col-sm-3 col-6">
+            <div class="col-sm-3 col-6">
+                <div class="episode-info">
+                    <h6 class="card-title">{{ episode.name }}</h6>
+                    <h8><b>Ep número</b>: {{ episode.episode }} <br><b>Data</b>: {{ episode.air_date }}</h8>
                     <p>
-                        
-                        <h6 class="card-title">{{episode.name}}</h6>
-                        <h8> <b>Ep número</b>: {{episode.episode}} <br><b>Data</b>: {{episode.air_date}}</br>
-                            <br><a href="/episode/{{episode.id}}" class="btn btn-primary"
-                            style="--bs-btn-padding-y: .15rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Saiba mais</a></p></br</h8>
+                        <br>
+                        <a href="/episode/{{ episode.id }}" class="btn-green text-white">Saiba mais</a>
                     </p>
-                    
-
                 </div>
-
+            </div>
         {% endfor %}
-
     </div>
-
 {% endblock %}
+
 

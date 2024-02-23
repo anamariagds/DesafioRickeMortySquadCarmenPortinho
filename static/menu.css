@@ -7,6 +7,11 @@ header a img{
     background-color: #04a104; 
     color: white; 
     padding: 10px; 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    
 }
 
 .nav.nav-tabs .nav-item {

@@ -9,7 +9,7 @@
   </head>
   <body>
 
-    {% include 'menu.html' %}
+        {% include 'menu.html' %}
     <main class="container-fluid">
 
         {% block content %}
@@ -17,20 +17,25 @@
             <h1>Desafio Rick & Morty </h1>
 
             <h3>{Squad Carmen Portinho}</h3>
+            
+            <div>
+              <h4> Bootcamp Back-end Python e Django </h4>
+              
+              <h5> O seriado Rick and Morty é um desenho animado americano de
+                comédia e ficção científica criado por Justin Roiland e Dan Harmon para
+                o bloco de programação noturno Adult Swim, exibido no canal Cartoon
+                Network. A série acompanha as perigosas aventuras do cientista louco
+                Rick e seu neto Morty, que divide seu tempo entre a vida familiar e
+                viagens interdimensionais. A série é inspirada em Back to the Future e
+                Doctor Who.
+                <i>A <b>API do Rick and Morty</b> é uma API pública que contém informações
+                sobre os personagens da série. </i></h5>
+            </div>  
+    
         {% endblock %}
 
-        <h4> Bootcamp Back-end Python e Django </h4>
-        
-        <h5> O seriado Rick and Morty é um desenho animado americano de
-          comédia e ficção científica criado por Justin Roiland e Dan Harmon para
-          o bloco de programação noturno Adult Swim, exibido no canal Cartoon
-          Network. A série acompanha as perigosas aventuras do cientista louco
-          Rick e seu neto Morty, que divide seu tempo entre a vida familiar e
-          viagens interdimensionais. A série é inspirada em Back to the Future e
-          Doctor Who.
-          A API do Rick and Morty é uma API pública que contém informações
-          sobre os personagens da série.  </h5>
-        </main>
+       
+    </main>
 
     <footer id="sticky-footer" class="flex-shrink-0 py-4">
         <div class="container text-center">

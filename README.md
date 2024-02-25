@@ -44,6 +44,14 @@ A API do Rick and Morty é uma API pública que contém informações sobre os p
 
 ## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20px;"/> Resolução<a name="resolucao"></a>
 
+Os exercícios foram resolvidos em grupo através de chamadas via Discord e organizados de acordo com um quadro Kanban no Trello:
+
+![trello](./assets/Trello.png)
+
+Nas reuniões indentificávamos o que era preciso ser feito e criávamos as tarefas de acordo com o que foi discutido.
+
+
+
 [![Retornar ao índice](https://img.shields.io/badge/Retornar%20ao%20%C3%ADndice-Verde%20Escuro?color=%23006400&style=flat&labelColor=%23006400&logo=github)](#retornar-ao-índice)
 
 ## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="20px;"/> Integrantes <a name="integrantes"></a>

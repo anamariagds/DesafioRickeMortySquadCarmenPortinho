@@ -1,0 +1,20 @@
+
+.btn-green {
+    background-color: #28a745; 
+    border-color: #28a745; 
+    color: #fff; 
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.btn-green:hover {
+    background-color: #218838; 
+    border-color: #1e7e34; 
+}
+
+.episode-info {
+    background-color: #90ee90; 
+    padding: 10px; 
+    margin-bottom: 10px;
+}

@@ -1,0 +1,15 @@
+.btn-custom {
+    background-color: green; 
+    color: white;   
+    display: inline-block; 
+    text-decoration: none; 
+}
+  
+.location-info { 
+  background-image: url('https://wallpapercave.com/wp/wp6736990.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  margin-bottom: 1vh;
+}
+  

@@ -1,0 +1,12 @@
+venv_api
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.venv
+
+ENV/
+
+gabi_env/
+
+

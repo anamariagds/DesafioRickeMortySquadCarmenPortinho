@@ -1,0 +1,76 @@
+
+
+.topo{
+    padding: 20px 0;
+    position: relative;
+    
+}
+
+.banner-topo{
+    background: #f2e0f7;
+}
+
+.banner-topo .img-destaque{
+    max-width: 300px;
+}
+
+.banner-topo h1{
+    color: purple;
+}
+
+.cor-tema{
+    color: purple;
+}
+
+#hamburguer{
+    background-color: white;
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 3px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.rodape{
+    color: purple;
+    background: #f2e0f7;
+    
+}
+a.nav-link{
+    color:blueviolet;
+    
+}
+
+a.nav-link:hover{
+    color: palevioletred;
+    
+    }
+
+a.btn{
+    color: blueviolet;
+    background: pink;
+    border: none;
+}
+
+
+li.nav-item{
+    color: blueviolet;
+
+    
+}
+
+.mb-3{
+    background: #f2e0f7;
+    border: none;
+}
+
+.btn.btn-primary{
+    border:none;
+    color: blueviolet;
+    margin: 15px;
+}
+
+@media screen and (min-width: 768px) {
+
+}

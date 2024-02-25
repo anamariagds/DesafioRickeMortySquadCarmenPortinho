@@ -1,0 +1,26 @@
+{% extends 'index.html' %}
+{% block content %}
+<style>
+    body {
+       background-color:  #90ee90;
+    }
+</style>
+
+    <div class="row">
+        <div class="col-sm-3 col-6">
+            <p>
+                <img src="{{profile.image}}" class="card-img-top rounded-circle"  alt="{{profile.name}}" class="img-thumbnail"/>
+                <h6 class="card-title">{{profile.name}}</h6>
+                <h8> <b>Espécie</b>: {{profile.species}}
+                    <br><b>Gênero</b>: {{profile.gender}}
+                    <br><b>Origem</b>: {{profile.origin.name}}
+                    <br><b>Localização</b>: {{profile.location.name}}
+                </h8>
+
+                <p></p>
+            </p>
+            
+        </div>
+
+    </div>
+{% endblock %}

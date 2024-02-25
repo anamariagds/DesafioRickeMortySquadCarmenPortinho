@@ -1,0 +1,21 @@
+<head>
+  <link rel="stylesheet" href="./static/locations.css">
+</head>
+
+{% extends 'index.html' %}
+
+{% block content %}
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    {% for location in locations %} 
+      <div class="col">
+        <div class="location-info">
+          <h6 class="card-title">{{ location.name }}</h6>
+          <h8><b>Tipo</b>: {{ location.type }} | <b>Dimensão</b>: {{ location.dimension }}</h8>
+          <br>
+          <br>
+          <a href="/locations/{{ location.id }}" class="btn-custom">Saiba mais</a>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% endblock %}

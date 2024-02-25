@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Rick & Morty API</title>
+      <link rel="icon" href="https://wallpapercave.com/wp/wp6737162.png" type="image/x-icon">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+      <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+  </head>
+  <body>
+
+        {% include 'menu.html' %}
+    <main class="container-fluid">
+
+        {% block content %}
+
+            <h1>Desafio Rick & Morty </h1>
+
+            <h3>{Squad Carmen Portinho}</h3>
+            
+            <div>
+              <h4> Bootcamp Back-end Python e Django </h4>
+              
+              <h5> O seriado Rick and Morty é um desenho animado americano de
+                comédia e ficção científica criado por Justin Roiland e Dan Harmon para
+                o bloco de programação noturno Adult Swim, exibido no canal Cartoon
+                Network. A série acompanha as perigosas aventuras do cientista louco
+                Rick e seu neto Morty, que divide seu tempo entre a vida familiar e
+                viagens interdimensionais. A série é inspirada em Back to the Future e
+                Doctor Who.
+                <i>A <b>API do Rick and Morty</b> é uma API pública que contém informações
+                sobre os personagens da série. </i></h5>
+            </div>  
+    
+        {% endblock %}
+
+       
+    </main>
+
+    <footer id="sticky-footer" class="flex-shrink-0 py-4">
+        <div class="container text-center">
+          <small style="text-decoration: none;">Feito com ♥ pela <a class=footer-link  href="https://github.com/anamariagds/DesafioRickeMortySquadCarmenPortinho/blob/master/README.md" target="_blank">Squad Carmen Portinho, patrocinado pela WoMakersCode</a></small>
+        </div>
+      </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    
+  </body>
+</html>

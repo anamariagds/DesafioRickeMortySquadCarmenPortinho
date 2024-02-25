@@ -9,9 +9,7 @@
 > O seriado Rick and Morty é um desenho animado americano de comédia e ficção científica criado por Justin Roiland e Dan Harmon para o bloco de programação noturno Adult Swim, exibido no canal Cartoon Network. A série acompanha as perigosas aventuras do cientista louco Rick e seu neto Morty, que divide seu tempo entre a vida familiar e
 viagens interdimensionais. A série é inspirada em Back to the Future e Doctor Who.
 
-<div style="text-align:center">
-    <img src="./assets/RickAndMorty.gif" width="300px" alt="Rick and Morty">
-</div>
+![RickAndMorty](./assets/RickAndMorty.gif)
 
 A API do Rick and Morty é uma API pública que contém informações sobre os personagens da série. A documentação da API pode ser encontrada neste [link](https://rickandmortyapi.com/documentation/#rest).
 
@@ -50,7 +48,9 @@ Os exercícios foram resolvidos em grupo através de chamadas via Discord e orga
 
 Nas reuniões indentificávamos o que era preciso ser feito e criávamos as tarefas de acordo com o que foi discutido.
 
+Os endpoints foram criados, assim como a estrutura e os estilos da aplicação. Abaixo a prévia:
 
+![Prévia](./assets/Rick%20&%20Morty%20API.gif)
 
 [![Retornar ao índice](https://img.shields.io/badge/Retornar%20ao%20%C3%ADndice-Verde%20Escuro?color=%23006400&style=flat&labelColor=%23006400&logo=github)](#retornar-ao-índice)
 

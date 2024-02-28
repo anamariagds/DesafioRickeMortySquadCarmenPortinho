@@ -7,21 +7,21 @@ app = FastAPI()
 
 db: List[User] = [
     User(
-        id=uuid4(),
+        id=UUID("2e153724-235d-4084-99ba-52f00a082255"),
         first_name="Daniele",
         last_name="Soares",
         email="email@gmail.com",
         role=[Role.role_1]
         ),
     User(
-        id=uuid4(),
+        id=UUID("b6e04b66-1a1a-4fd0-909a-7aee1a3ef832"),
         first_name="Gustavo",
         last_name="Nascimento",
         email="email@gmail.com",
         role=[Role.role_2]
     ),
      User(
-        id=uuid4(),
+        id=UUID("f7d61325-d5eb-46ed-b5b4-8f377d822d7a"),
         first_name="Maria",
         last_name="Inez",
         email="email@gmail.com",
